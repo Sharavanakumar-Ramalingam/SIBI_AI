@@ -1,0 +1,117 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    position: fixed;
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar ul li a i {
+    margin-right: 10px;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    width: calc(100% - 250px);
+}
+
+/* Welcome Section */
+.welcome {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.welcome h1 {
+    color: #007bff;
+}
+
+/* Dashboard Cards */
+.dashboard-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card i {
+    font-size: 2rem;
+    color: #007bff;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.card p {
+    color: gray;
+}
+
+/* AI Tutor & Video Section */
+.tutor-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.tutor, .video {
+    background: white;
+    padding: 20px;
+    width: 48%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tutor h2, .video h2 {
+    color: #007bff;
+}
+
+.btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}

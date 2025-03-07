@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Quiz - SIBI</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <script src="scripts/quiz.js"></script>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>SIBI</h2>
+        <ul>
+            <li><a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a></li>
+            <li><a href="study_mode.html"><i class="fas fa-book-open"></i> Study Mode</a></li>
+            <li><a href="#" class="active"><i class="fas fa-question-circle"></i> AI Quiz</a></li>
+            <li><a href="answer.html"><i class="fas fa-chart-line"></i> Answer Analysis</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1>📝 AI-Powered Quiz</h1>
+
+        <div class="quiz-container">
+            <h2>📌 Select a Topic</h2>
+            <input type="text" id="quizTopic" placeholder="Enter a topic">
+            <button class="btn" onclick="generateQuiz()">Start Quiz</button>
+        </div>
+
+        <div class="quiz-section">
+            <h2>🤖 AI-Generated Questions</h2>
+            <div id="quizContent">Questions will appear here...</div>
+        </div>
+    </div>
+
+</body

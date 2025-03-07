@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer Sheet Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Upload Your Answer Sheet for Analysis</h2>
+        <input type="file" id="answerSheetUpload" accept=".pdf, .png, .jpg, .jpeg, .txt">
+        <button onclick="analyzeAnswer()">Analyze</button>
+
+        <h3>Extracted Text:</h3>
+        <pre id="extractedText"></pre>
+
+        <h3>AI Feedback:</h3>
+        <pre id="aiFeedback"></pre>
+    </div>
+
+    <script src="scripts/answer.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIBI Dashboard</title>
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <script defer src="scripts/dashboard.js"></script>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>SIBI</h2>
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="study_mode.html"><i class="fas fa-book"></i> Study Plan</a></li>
+            <li><a href="quiz.html"><i class="fas fa-question-circle"></i> AI Quiz</a></li>
+            <li><a href="answer.html"><i class="fas fa-upload"></i> Answer Analysis</a></li>
+            <li><a href="#" id="logoutBtn"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Welcome Section -->
+        <div class="welcome">
+            <h1>Welcome, <span id="userName"></span>! 👋</h1>
+            <p>Your AI-powered study buddy is here to help you succeed.</p>
+        </div>
+
+        <!-- Dashboard Cards -->
+        <div class="dashboard-cards">
+            <div class="card">
+                <i class="fas fa-clock"></i>
+                <h3>Today's Study Plan</h3>
+                <p>Complete 3 chapters before 5 PM!</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-pen"></i>
+                <h3>Next Quiz</h3>
+                <p>Math Quiz at 6 PM</p>
+            </div>
+        </div>
+
+        <!-- AI Tutor & Video Recommendations -->
+        <div class="tutor-section">
+            <div class="tutor">
+                <h2>🧑‍🏫 AI Tutor - Need Help?</h2>
+                <p>Ask SIBI to explain difficult concepts!</p>
+                <button class="btn">Start Chat</button>
+            </div>
+            <div class="video">
+                <h2>🎥 Recommended Video</h2>
+                <p>Watch related videos based on your weak areas.</p>
+                <button class="btn">Watch Now</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

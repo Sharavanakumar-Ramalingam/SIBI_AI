@@ -1,0 +1,91 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero .buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-alt {
+    background-color: #0056b3;
+    color: white;
+}
+
+.hero-image img {
+    width: 300px;
+}
+
+/* Features Section */
+.features {
+    padding: 50px;
+    background: white;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.feature {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.feature i {
+    font-size: 2rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}

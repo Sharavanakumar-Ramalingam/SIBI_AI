@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Mode - SIBI</title>
+    <link rel="stylesheet" href="styles/study_mode.css">
+    <script src="scripts/study.js"></script>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>SIBI</h2>
+        <ul>
+            <li><a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a></li>
+            <li><a href="#" class="active"><i class="fas fa-book-open"></i> Study Mode</a></li>
+            <li><a href="quiz.html"><i class="fas fa-question-circle"></i> Quizzes</a></li>
+            <li><a href="answer.html"><i class="fas fa-chart-line"></i> Answer Analysis</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1>📖 Study Mode</h1>
+
+        <div class="study-container">
+            <div class="avatar-section">
+                <h2>👨‍🏫 Your AI Study Companion</h2>
+                <canvas id="avatarCanvas"></canvas>
+                <p>SIBI is here to explain your topics. Ask anything!</p>
+                <input type="text" id="studyTopic" placeholder="Enter a topic to study">
+                <button onclick="generateStudyPlan()" class="btn">Get Study Plan</button>
+            </div>
+
+            <div class="study-content">
+                <h2>📝 AI-Generated Study Plan</h2>
+                <p id="studyPlan">Your study plan will appear here...</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
