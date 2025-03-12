@@ -49,10 +49,10 @@ def login(email: str = Form(...), password: str = Form(...)):
     return {"message": "Login successful!", "username": user["username"]}
 
 # Initialize Groq API
-client = Groq(api_key="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")  # Replace with actual API key
+client = Groq(api_key="groq api")  # Replace with actual API key
 
 # Configure Gemini API (For OCR-based Answer Sheet Analysis)
-genai.configure(api_key="AIzaSyC7kcDQFkHQTbJaJtj2JZ8zVaDHdA3Li-E")
+genai.configure(api_key="gemini api")
 
 @app.get("/")
 def home():
